@@ -1,0 +1,77 @@
+/* Jumbotron */ 
+.jumbotron{
+    background-color: white;
+    height: 230px;
+}
+
+
+.jumbotron .img-fluid{
+  height: 170px ;
+}
+
+/* .scrollable{
+    height: 400px;
+    overflow: scroll;
+  
+} */
+
+p{
+    text-align: justify;
+}
+
+section{
+display: block;
+}
+
+/* Page Navigation */
+#pagenav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: auto;
+    
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color:black;
+    color:white;
+    
+    
+  }
+  
+  .next {
+    background-color: black;
+    color: white;
+    
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+/* Footer */
+footer{
+    color: ivory;
+}
+#footer p{
+    color: ivory;
+    font-weight: bolder;
+}
+
+#footer1 {
+    bottom: 0;
+    color: #707070;
+    height:inherit;
+    left: 0;
+    position: static;
+     /*changed to relative from fixed also works if position is not there */
+    font-size: small;
+    width:100%;
+}
+
+
